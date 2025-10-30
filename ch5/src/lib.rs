@@ -72,11 +72,17 @@ pub fn get_args() -> MyResult<Config> {
         .cloned()
         .collect::<Vec<String>>();
 
-    let lines = matches.get_flag("lines");
-    let words = matches.get_flag("words");
-    let bytes = matches.get_flag("bytes");
+    let mut lines = matches.get_flag("lines");
+    let mut words = matches.get_flag("words");
+    let mut bytes = matches.get_flag("bytes");
     let chars = matches.get_flag("chars");
 
+    // Default to l/w/c when no selection flags were provided at all
+    if !(lines || words || bytes || chars) {
+        lines = true;
+        words = true;
+        bytes = true;
+    }
 
     Ok(Config {
         files,
