@@ -7,3 +7,5 @@
     - `tests/expected/the-bustle.txt.n.stdin.out`
     - `tests/expected/the-bustle.txt.b.stdin.out`
 - Your non-stdin test `bustle_stdin` passes only because the expected file `tests/expected/the-bustle.out.txt` was manually created with a final blank line to match `println!` behavior.
+
+## To test on Linux

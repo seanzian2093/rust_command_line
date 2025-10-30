@@ -31,7 +31,8 @@ pub fn run(config: Config) -> MyResult<()> {
                     let line_string = line?;
 
                     // when a line is empty
-                    if line_string == "".to_string() {
+                    // if line_string == "".to_string() {
+                    if line_string.is_empty() {
                         // if -b is specified
                         // do not increase the line number and print empty line only
                         if number_nonblank_lines {

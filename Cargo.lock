@@ -138,6 +138,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "ch5-wcr"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd",
+ "clap",
+ "predicates",
+ "rand",
+]
+
+[[package]]
+name = "ch6-uniq"
+version = "0.1.0"
+
+[[package]]
 name = "chacha20"
 version = "0.10.0-rc.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
