@@ -2,7 +2,7 @@ use clap::{Arg, ArgAction, Command};
 
 // target/debug/ch2 -h
 fn main() {
-    let matches = Command::new("echor")
+    let matches = Command::new("ch2-echor")
         .version("0.1.0")
         .author("Sean Z")
         .about("Rust echo")

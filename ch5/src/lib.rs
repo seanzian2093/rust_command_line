@@ -162,7 +162,6 @@ pub fn count(mut file: impl BufRead) -> MyResult<FileInfo> {
     let mut num_chars = 0;
 
     let mut line = String::new();
-
     loop {
         let line_bytes = file.read_line(&mut line)?;
         // if bytes is 0, all is 0, break the loop and return all 0s
@@ -177,6 +176,8 @@ pub fn count(mut file: impl BufRead) -> MyResult<FileInfo> {
         // reuse line in a loop, critical to clear() after an iteration
         line.clear();
     }
+
+    num_lines = if num_lines > 0 { num_lines -1 } else { 0 };
 
     Ok(FileInfo {
         num_lines,
@@ -197,7 +198,7 @@ mod tests {
         let info = count(Cursor::new(text));
         assert!(info.is_ok());
         let expected = FileInfo {
-            num_lines: 1,
+            num_lines: 0,
             num_words: 10,
             num_bytes: 48,
             num_chars: 48,

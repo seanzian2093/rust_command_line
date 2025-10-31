@@ -1,3 +1,4 @@
+#![allow(unused)]
 // cargo test -p ch2 --test cli
 use assert_cmd::Command;
 use predicates::prelude::*;

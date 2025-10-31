@@ -160,14 +160,14 @@ fn spiders() -> TestResult {
 // --------------------------------------------------
 #[test]
 fn spiders_n() -> TestResult {
-    run(&["--number", SPIDERS], "tests/expected/spiders.txt.n.out")
+    run(&["-n", SPIDERS], "tests/expected/spiders.txt.n.out")
 }
 
 // --------------------------------------------------
 #[test]
 fn spiders_b() -> TestResult {
     run(
-        &["--number-nonblank", SPIDERS],
+        &["-b", SPIDERS],
         "tests/expected/spiders.txt.b.out",
     )
 }

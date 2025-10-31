@@ -1,3 +1,4 @@
+#![allow(unused)]
 // std::process:Command is not very handy
 use std::process::Command;
 

@@ -1,3 +1,4 @@
+#![allow(unused)]
 // cargo test --test cli2 -q
 // cargo test --test cli2 --test-thread=1 to ensure test in order
 use assert_cmd::Command;
