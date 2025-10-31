@@ -1,6 +1,6 @@
 use clap::{Arg, ArgAction, Command};
 
-// target/debug/ch2 -h
+// target/debug/ch2-echor -h
 fn main() {
     let matches = Command::new("ch2-echor")
         .version("0.1.0")

@@ -17,7 +17,7 @@ fn run_ls() {
 #[test]
 fn run_rust_command_line() {
     // Command is not able to find the bin of rust_command_line so res is an error
-    let mut cmd = Command::new("rust_command_line");
+    let mut cmd = Command::new("ch1");
     let res = cmd.output();
     assert!(res.is_err());
 }

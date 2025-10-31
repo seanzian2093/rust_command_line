@@ -6,7 +6,7 @@ use assert_cmd::Command;
 #[test]
 fn run_rust_command_line() {
     // assert_cmd::Command is able to find cargo bin in `target/debug/`
-    let mut cmd = Command::cargo_bin("rust_command_line").unwrap();
+    let mut cmd = Command::cargo_bin("ch1").unwrap();
     cmd.assert().success();
 }
 
