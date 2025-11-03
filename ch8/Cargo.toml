@@ -1,10 +1,12 @@
 [package]
-name = "ch4-headr"
+name = "ch8-cutr"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
 clap = "4.5.51"
+regex = "1.12.2"
+csv = "1.4.0"
 
 [dev-dependencies]
 assert_cmd = "2.1.1"
