@@ -1,0 +1,15 @@
+[package]
+name = "ch11-tailr"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+num = "0.4.3"
+clap = "4.5.51"
+regex = "1.12.2"
+once_cell = "1.21.3"
+
+[dev-dependencies]
+assert_cmd = "2.1.1"
+predicates = "3.1.3"
+rand = "0.10.0-rc.0"

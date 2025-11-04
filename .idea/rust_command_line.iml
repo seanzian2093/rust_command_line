@@ -11,6 +11,10 @@
       <sourceFolder url="file://$MODULE_DIR$/ch4/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ch4/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch10/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch10/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ch11/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch11/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/ch5/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ch5/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/ch6/src" isTestSource="false" />
@@ -21,6 +25,8 @@
       <sourceFolder url="file://$MODULE_DIR$/ch8/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/ch9/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ch9/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ch12/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch12/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
