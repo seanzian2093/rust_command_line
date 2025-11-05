@@ -1,7 +1,7 @@
 use std::{
     error::Error,
     fs::{self, File},
-    io::{self, BufRead, BufReader},
+    io::{BufRead, BufReader},
 };
 use std::ffi::OsStr;
 use std::path::PathBuf;
